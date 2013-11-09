@@ -10,10 +10,10 @@ namespace Xrm
     {
 
         [ScriptName("expanded")]
-        Expanded = 0,
+        Expanded,
 
         [ScriptName("collapsed")]
-        Collapsed = 1
+        Collapsed
 
     }
 
