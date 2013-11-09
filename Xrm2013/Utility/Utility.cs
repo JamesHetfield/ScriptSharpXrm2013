@@ -43,7 +43,7 @@ namespace Xrm
         /// <param name="message">The text of the message to display in the dialog</param>
         /// <param name="onCloseCallback">A function to execute when the OK button is clicked</param>
         /// <remarks>This method is only available for Updated Entities</remarks>
-        public static void AlertDialog(string message, OnCloseCallbackHandler onCloseCallback)
+        public static void AlertDialog(string message, ParameterlessFunctionHandler onCloseCallback)
         { }
 
         /// <summary>
@@ -53,7 +53,7 @@ namespace Xrm
         /// <param name="yesCloseCallback">A function to execute when the OK button is clicked</param>
         /// <param name="noCloseCallback">A function to execute when the Cancel button is clicked</param>
         /// <remarks>This method is only available for Updated Entities</remarks>
-        public static void ConfirmDialog(string message, YesCloseCallbackHandler yesCloseCallback, NoCloseCallbackHandler noCloseCallback)
+        public static void ConfirmDialog(string message, ParameterlessFunctionHandler yesCloseCallback, ParameterlessFunctionHandler noCloseCallback)
         { }
 
 

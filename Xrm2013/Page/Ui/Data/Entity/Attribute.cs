@@ -12,14 +12,26 @@ namespace Xrm
         /// <summary>
         /// Sets a function to be called when the attribute value is changed
         /// </summary>
-        public void AddOnChange(AddRemoveOnChangeHandler function)
+        public void AddOnChange(ParameterlessFunctionHandler function)
+        { }
+
+        /// <summary>
+        /// Sets a function to be called when the attribute value is changed
+        /// </summary>
+        public void AddOnChange(ExecutionContextFunctionHandler function)
         { }
 
         /// <summary>
         /// Removes a function from the OnChange event hander for an attribute
         /// </summary>
-        public void RemoveOnChange(AddRemoveOnChangeHandler function)
-        {  }
+        public void RemoveOnChange(ParameterlessFunctionHandler function)
+        { }
+
+        /// <summary>
+        /// Removes a function from the OnChange event hander for an attribute
+        /// </summary>
+        public void RemoveOnChange(ExecutionContextFunctionHandler function)
+        { }
 
         /// <summary>
         /// Causes the OnChange event to occur on the attribute so that any script associated to that event can execute

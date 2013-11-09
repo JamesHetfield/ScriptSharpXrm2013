@@ -16,13 +16,25 @@ namespace Xrm
         /// <summary>
         /// Adds a function to be called when the record is saved
         /// </summary>
-        public void AddOnSave(AddRemoveOnSaveHandler function)
+        public void AddOnSave(ParameterlessFunctionHandler function)
+        { }
+
+        /// <summary>
+        /// Adds a function to be called when the record is saved
+        /// </summary>
+        public void AddOnSave(ExecutionContextFunctionHandler function)
         { }
 
         /// <summary>
         /// Removes a function to be called when the record is saved
         /// </summary>
-        public void RemoveOnSave(AddRemoveOnSaveHandler function)
+        public void RemoveOnSave(ParameterlessFunctionHandler function)
+        { }
+
+        /// <summary>
+        /// Removes a function to be called when the record is saved
+        /// </summary>
+        public void RemoveOnSave(ExecutionContextFunctionHandler function)
         { }
 
         /// <summary>

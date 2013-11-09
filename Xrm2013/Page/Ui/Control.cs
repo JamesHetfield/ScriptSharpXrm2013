@@ -108,14 +108,14 @@ namespace Xrm
         /// Use this method to apply changes to lookups based on values current just as the user is about to view results for the lookup
         /// </summary>
         /// <param name="AddPreSearchHandler">Function to add.  The argument is a function that will be run just before the search to provide results for a lookup occurs. You can use this handler to call one of the other lookup control functions and improve the results to be displayed in the lookup.</param>
-        public void AddPreSearch(AddPreSearchHandler AddPreSearchHandler)
+        public void AddPreSearch(ParameterlessFunctionHandler AddPreSearchHandler)
         { }
 
         /// <summary>
         /// Use this method to remove event handler functions that have previously been set for the PreSearch event
         /// </summary>
         /// <param name="RemovePreSearchHandler">Function to remove</param>
-        public void RemovePreSearch(RemovePreSearchHandler RemovePreSearchHandler)
+        public void RemovePreSearch(ParameterlessFunctionHandler RemovePreSearchHandler)
         { }
 
         /// <summary>
