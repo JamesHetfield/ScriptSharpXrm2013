@@ -47,8 +47,8 @@ namespace Xrm
         /// </summary>
         /// <param name="key">The name of the variable</param>
         /// <remarks>The specific type depends on what the value object is</remarks>
-        public T GetSharedVariable<T>(string key)
-        { return default(T); }
+        public object GetSharedVariable(string key)
+        { return null; }
 
     #endregion
 

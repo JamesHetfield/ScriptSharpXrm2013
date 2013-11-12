@@ -34,7 +34,7 @@ namespace Xrm
         /// <summary>
         /// Method to cause the ribbon to re-evaluate data that controls what is displayed in it
         /// </summary>
-        /// <remarks>This function is typically used when a ribbon <EnableRule> (RibbonDiffXml) depends on a value in the form. After your code changes a value that is used by a rule, use this method to force the ribbon to re-evaluate the data in the form so that the rule can be applied.  Note: This method does not work with Microsoft Dynamics CRM for tablets</remarks>
+        /// <remarks>This function is typically used when a ribbon EnableRule (RibbonDiffXml) depends on a value in the form. After your code changes a value that is used by a rule, use this method to force the ribbon to re-evaluate the data in the form so that the rule can be applied.  Note: This method does not work with Microsoft Dynamics CRM for tablets</remarks>
         public void RefreshRibbon()
         { }
 

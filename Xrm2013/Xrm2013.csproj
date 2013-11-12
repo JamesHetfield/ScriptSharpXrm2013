@@ -66,7 +66,7 @@
     <Compile Include="Page\Ui\Tabs\TabItem.cs" />
     <Compile Include="Page\Ui\Tabs\TabSection.cs" />
     <Compile Include="Page\Ui\Tabs\TabSections.cs" />
-    <Compile Include="Utility\Utility.cs" />
+    <Compile Include="Utility.cs" />
     <ScriptInfo Include="Properties\ScriptInfo.txt" />
     <Compile Include="Delegates.cs" />
     <Compile Include="Page.cs" />

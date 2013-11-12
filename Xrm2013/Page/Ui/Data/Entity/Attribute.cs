@@ -6,7 +6,7 @@ using System.Runtime.CompilerServices;
 namespace Xrm
 {
     [Imported]
-    public class Attribute
+    public class XrmAttribute
     {
 
         /// <summary>
@@ -145,7 +145,7 @@ namespace Xrm
         /// Returns the Xrm.Page.data.entity object that is the parent to all attributes.  This function exists to provide a consistent interface with other objects. In this case, because every attribute returns the same object, there are not many situations where it is useful
         /// </summary>
         /// <returns></returns>
-        public Entity GetParent()
+        public XrmEntity GetParent()
         { return null; }
 
         /// <summary>
@@ -232,8 +232,8 @@ namespace Xrm
         /// Retrieves the data value for an attribute
         /// </summary>
         /// <returns>Depends on type of attribute</returns>
-        public T GetValue<T>()
-        { return default(T); }
+        public object GetValue()
+        { return null; }
 
         /// <summary>
         /// Sets the data value for an attribute

@@ -26,7 +26,7 @@ namespace Xrm
         /// Returns the attribute that the control is bound to
         /// </summary>
         /// <remarks>Controls that are not bound to an attribute (subgrid, web resource, and IFRAME) do not have this method. An error will be thrown if you attempt to use this method on one of these controls.</remarks>
-        public Attribute GetAttribute()
+        public XrmAttribute GetAttribute()
         { return null; }
 
         /// <summary>
@@ -75,7 +75,14 @@ namespace Xrm
         /// </summary>
         /// <param name="filter">The fetchXml filter element to apply.  Refer to SDK For example.</param>
         /// <param name="entityLogicaName">If this is set the filter will only apply to that entity type. Otherwise it will apply to all types of entities returned</param>
-        public void AddCustomFilter(string filter, string entityLogicaName = null)
+        public void AddCustomFilter(string filter, string entityLogicaName)
+        { }
+
+        /// <summary>
+        /// Use add additional filters to the results displayed in the lookup. Each filter will be combined with any previously added filters as an ‘AND’ condition
+        /// </summary>
+        /// <param name="filter">The fetchXml filter element to apply.  Refer to SDK For example.</param>
+        public void AddCustomFilter(string filter)
         { }
 
         /// <summary>
@@ -138,7 +145,14 @@ namespace Xrm
         /// </summary>
         /// <param name="option">An option object to add to the OptionSet</param>
         /// <param name="index">The index position to place the new option. If not provided the option will be added to the end</param>
-        public void AddOption(Option option, int index = 0)
+        public void AddOption(Option option, int index)
+        { }
+
+        /// <summary>
+        /// Adds an option to an option set control
+        /// </summary>
+        /// <param name="option">An option object to add to the OptionSet</param>
+        public void AddOption(Option option)
         { }
 
         /// <summary>

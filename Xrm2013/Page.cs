@@ -72,7 +72,7 @@ namespace Xrm
         /// <summary>
         /// Returns an attribute object where the attribute name matches the string
         /// </summary>
-        public static Attribute GetAttribute(string name)
+        public static XrmAttribute GetAttribute(string name)
         {
             return null;
         }
@@ -80,7 +80,7 @@ namespace Xrm
         /// <summary>
         /// Returns the attribute object where the Xrm.Page.data.entity.attributes collection index matches the number
         /// </summary>
-        public static Attribute GetAttribute(int position)
+        public static XrmAttribute GetAttribute(int position)
         {
             return null;
         }
@@ -88,7 +88,7 @@ namespace Xrm
         /// <summary>
         /// Returns an array of all the attributes
         /// </summary>
-        public static Attribute[] GetAttribute()
+        public static XrmAttribute[] GetAttribute()
         {
             return null;
         }
@@ -96,7 +96,7 @@ namespace Xrm
         /// <summary>
         /// Returns an array of any attributes from the Xrm.Page.data.entity.attributes collection that cause the delegate function to return true
         /// </summary>
-        public static Attribute[] GetAttribute(GetAttributeHandler function)
+        public static XrmAttribute[] GetAttribute(GetAttributeHandler function)
         {
             return null;
         }

@@ -3,7 +3,7 @@
 namespace Xrm
 {
     [Imported]
-    public class Entity
+    public class XrmEntity
     {
 
         /// <summary>
