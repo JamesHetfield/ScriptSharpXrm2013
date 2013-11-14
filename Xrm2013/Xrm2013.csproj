@@ -38,6 +38,7 @@
     <Compile Include="Page\FormType.cs" />
     <Compile Include="Page\SaveEventArgs.cs" />
     <Compile Include="Page\SaveMode.cs" />
+    <Compile Include="Page\Theme.cs" />
     <Compile Include="Page\Ui.cs" />
     <Compile Include="Page\Ui\Control.cs" />
     <Compile Include="Page\Ui\Controls.cs" />
